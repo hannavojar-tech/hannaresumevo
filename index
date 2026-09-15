@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hanna Vojar — Mechanical Engineering &amp; Robotics</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="blueprint ticked">
+  <div class="wrap">
+    <nav class="top">
+      <span class="mark">H. VOJAR</span>
+      <div class="links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </div>
+
+  <div class="wrap hero">
+    <div class="kicker">Mechanical Engineering &amp; Design — Northeastern University</div>
+    <h1>I build robots and mechanical systems that have to work the first time someone touches them.</h1>
+    <p class="tagline">Sophomore studying mechanical engineering and design, focused on embedded robotics and hands-on prototyping. Currently teaching first-year engineers and building things that get judged by strangers in a museum, not just a professor.</p>
+    <div class="hero-links">
+      <a href="mailto:vojar.h@northeastern.edu">vojar.h@northeastern.edu</a>
+      <a href="https://linkedin.com/in/hanna-vojar-178265283" target="_blank">LinkedIn</a>
+      <a href="resume.pdf" target="_blank">Resume (PDF)</a>
+    </div>
+  </div>
+</header>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Projects</h2>
+      <span class="section-num">04 selected builds</span>
+    </div>
+
+    <div class="projects-grid">
+
+      <a class="project-card paper-ticked" href="egbert.html">
+        <span class="tick-bl"></span><span class="tick-br"></span>
+        <div class="project-media">[ photo / video of Egbert ]</div>
+        <div class="project-body">
+          <h3>"Egbert" — Interactive AI Robot</h3>
+          <p>An AI-driven robot that sees, hears, and talks back — built around a Pi Pico with camera, mic, and speaker.</p>
+        </div>
+        <div class="title-block">
+          <div><span>Role</span><strong>Team Lead</strong></div>
+          <div><span>Team</span><strong>4 engineers</strong></div>
+          <div><span>Status</span><strong>Complete</strong></div>
+        </div>
+      </a>
+
+      <a class="project-card paper-ticked" href="light-seeking-robot.html">
+        <span class="tick-bl"></span><span class="tick-br"></span>
+        <div class="project-media">[ photo / video of robot in maze ]</div>
+        <div class="project-body">
+          <h3>Light Seeking Robot</h3>
+          <p>Sensor-driven chassis that navigates toward light and completes a physical maze — built for ME 4699.</p>
+        </div>
+        <div class="title-block">
+          <div><span>Role</span><strong>Team Lead</strong></div>
+          <div><span>Course</span><strong>ME 4699</strong></div>
+          <div><span>Result</span><strong>Maze passed</strong></div>
+        </div>
+      </a>
+
+      <a class="project-card paper-ticked" href="museum-exhibit.html">
+        <span class="tick-bl"></span><span class="tick-br"></span>
+        <div class="project-media">[ photo of exhibit at museum ]</div>
+        <div class="project-body">
+          <h3>Interactive Museum Exhibit</h3>
+          <p>A pirate-themed whack-a-mole game built for the Boston Children's Museum, engineered for constant public use.</p>
+        </div>
+        <div class="title-block">
+          <div><span>Role</span><strong>Project Lead</strong></div>
+          <div><span>Budget</span><strong>$120</strong></div>
+          <div><span>Client</span><strong>BCM</strong></div>
+        </div>
+      </a>
+
+      <a class="project-card paper-ticked" href="train-game.html">
+        <span class="tick-bl"></span><span class="tick-br"></span>
+        <div class="project-media">[ photo / video of train game ]</div>
+        <div class="project-body">
+          <h3>Pico-Based Interactive Train Game</h3>
+          <p>A hardware game built around real-time sensor input and embedded logic — 1st place among competing teams.</p>
+        </div>
+        <div class="title-block">
+          <div><span>Role</span><strong>Engineer</strong></div>
+          <div><span>Result</span><strong>1st place</strong></div>
+          <div><span>Client</span><strong>Course project</strong></div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="skills-strip">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Skills</h2>
+      <span class="section-num">tools &amp; capabilities</span>
+    </div>
+    <div class="skills-cols">
+      <div>
+        <h4>CAD &amp; FABRICATION</h4>
+        <ul>
+          <li>SolidWorks</li>
+          <li>Onshape</li>
+          <li>AutoCAD</li>
+          <li>3D Printing &amp; Laser Cutting</li>
+          <li>Soldering &amp; Hand Tools</li>
+        </ul>
+      </div>
+      <div>
+        <h4>PROGRAMMING</h4>
+        <ul>
+          <li>Python</li>
+          <li>MATLAB</li>
+          <li>Raspberry Pi Pico / Embedded C</li>
+        </ul>
+      </div>
+      <div>
+        <h4>CORE</h4>
+        <ul>
+          <li>Mechanical design &amp; iteration</li>
+          <li>Sensor integration &amp; controls</li>
+          <li>Rapid prototyping</li>
+          <li>Team leadership</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div>Let's talk about co-op — spring 2027.</div>
+    <div>
+      <a href="mailto:vojar.h@northeastern.edu">vojar.h@northeastern.edu</a>
+      &nbsp;&nbsp;·&nbsp;&nbsp;
+      <a href="tel:9179996611">917-999-6611</a>
+      &nbsp;&nbsp;·&nbsp;&nbsp;
+      <a href="https://linkedin.com/in/hanna-vojar-178265283" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
